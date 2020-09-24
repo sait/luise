@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Crud</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Datos insert -->
+    <div class="data-box">
+        <h2>Inserta informacion de Alumnos</h2>
+        <form method="POST">
+            <div class="form-group">
+                <label for="usr">Nombre:</label>
+                <input type="text" class="form-control" id="usr">
+            </div>
+            <div class="form-group">
+                <label for="usr">Apellido:</label>
+                <input type="text" class="form-control" id="user">
+            </div>
+            <div class="form-group">
+                <label for="usr">Edad:</label>
+                <input type="number" class="form-control" id="num">
+            </div>
+            <div class="form-group">
+                <label for="usr">Correo:</label>
+                <input type="email" class="form-control" id="user">
+            </div>
+            <div class="form-group">
+                <label for="usr">Calificaciones:</label>
+                <input type="number" class="form-control" id="num">
+            </div>
+        </form>
+        <!-- Boton -->
+        <button type="button" class="btn btn-success">Aceptar</button>
+    </div>
+
+    <!-- Tablad de datos -->
+    <div class="info-box">
+        <table class="table table-borderless">
+            <div class="container">
+                <h2>Lista de estudiantes</h2>
+                <p>Buscador de estudiantes.</p>            
+                <table class="table table-borderless">
+                  <thead>
+                    <tr>
+                      <th>Nombre</th>
+                      <th>Apellido</th>
+                      <th>Edad</th>
+                      <th>Correo</th>
+                      <th>Calificaciones</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>John</td>
+                      <td>Doe</td>
+                      <td>20</td>
+                      <td>john@example.com</td>
+                      <td>10</td>
+                    </tr>
+                    <tr>
+                      <td>Mary</td>
+                      <td>Moe</td>
+                      <td>20</td>
+                      <td>mary@example.com</td>
+                      <td>10</td>
+                    </tr>
+                    <tr>
+                      <td>July</td>
+                      <td>Dooley</td>
+                      <td>20</td>
+                      <td>july@example.com</td>
+                      <td>10</td>
+                    </tr>
+                    
+                  </tbody>
+                </table>
+              </div>
+
+    </div>
+
+
+</body>
+</html>
